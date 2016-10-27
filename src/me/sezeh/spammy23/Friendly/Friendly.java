@@ -20,10 +20,15 @@ public class Friendly implements CommandExecutor {
                 Player player = (Player) sender;
                 switch (args[0]) {
                     case "toggle":
-                        boolean value=!pluginthis.getConfig().getBoolean(player.getName());
+                    if (player.hasPermission("friendly.toggle")){
+                        boolean value = !pluginthis.getConfig().getBoolean(player.getName());
                         pluginthis.getConfig().set(player.getName(), value);
                         pluginthis.saveConfig();
-                        player.sendMessage("Friendly Mode: " +value);
+                        player.sendMessage("Friendly Mode: " + value);
+                }
+                else {
+                        player.sendMessage("You do not have Permission friendly.toggle");
+                    }
                         break;
                     case "on":
                         if (player.hasPermission("friendly.on.other")) {
