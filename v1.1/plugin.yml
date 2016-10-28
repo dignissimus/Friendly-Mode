@@ -1,0 +1,8 @@
+name: Friendly-Mode
+version: 1.1
+author: spammy23
+main: me.sezeh.spammy23.Friendly.Main
+commands:
+  friendly:
+    description: The Friendly Mode plugin turns on and off pvp for players
+    usage: /friendly toggle, /friendly [on/off] <player>, /friendly reload
