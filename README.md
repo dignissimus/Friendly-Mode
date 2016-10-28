@@ -8,3 +8,5 @@ A Bukkit Plugin to allow players to turn of PvP for themselves
 stores whether or not player has friendly mode ON(true) or OFF(false)
 #File
 [FriendlyMode.jar](https://raw.githubusercontent.com/spammy23/Friendly-Mode/master/FriendlyMode.jar "Friendly-Mode Plugin")
+#Description
+While in Friendly-Mode Players will not take Arrow Damage or any Damage inflicted by other players. While in Friendly-Mode, on Death a Player will also keep their items.
