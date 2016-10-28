@@ -36,7 +36,7 @@ public class listeners implements Listener {
                 //attacked.setHealth(attacked.getHealth() + damage);//Heals
                 if (event.getDamager() instanceof Player) {
                     attacker = (Player) event.getDamager();
-                    attacker.sendMessage(ChatColor.RED + attacked.getName() + ChatColor.WHITE + " Has Friendly Mode Turned OFF");
+                    attacker.sendMessage(ChatColor.RED + attacked.getName() + ChatColor.WHITE + " Has Friendly Mode Turned ON");
                 }
                 event.setCancelled(true);
             }
