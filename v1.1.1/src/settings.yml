@@ -1,0 +1,2 @@
+BroadcastFriendly: true #Tell everyone that <Player> has turned on friendly
+AllowFriendlyToAttack: false # allow People in friendly mode to attack others
